@@ -285,7 +285,7 @@ footer {
 }
 
 .footer-location span {
-    padding-left: 35px;
+    padding-left: 5px;
 }
 
 .footer-contact {
@@ -307,7 +307,7 @@ footer {
 }
 
 .footer-links a {
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .footer-more-links {
@@ -316,16 +316,14 @@ footer {
     grid-template-columns: 1fr;
 }
 
-.footer-more-links a {
-    margin-bottom: 24px;
-}
-
 .social-icons {
     grid-area: social-icons;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .social-icons i {
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.social-icons :not(:last-child) {
+    margin-right: 5%;
 }
